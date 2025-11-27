@@ -1,0 +1,39 @@
+[project]
+name = "codon-usage"
+version = "1.0.0"
+description = "Tools for analyzing codon usage from FASTA files."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Ahmed Almesallmy", email = "admin@almesallmy.com"}
+]
+
+keywords = [
+  "bioinformatics",
+  "codon",
+  "codon-usage",
+  "codon-bias",
+  "fasta",
+  "cds",
+  "sequence-analysis",
+  "genomics",
+  "coding sequence,"
+]
+
+license = { file = "LICENSE" }
+dependencies = [
+  "pandas",
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Homepage = "https://almesallmy.com"
+Source = "https://github.com/almesallmy/codon-usage"
+"Bug Tracker" = "https://github.com/almesallmy/codon-usage/issues"

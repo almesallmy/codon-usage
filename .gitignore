@@ -1,0 +1,39 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Analysis outputs
+codon_usage.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files and folders (never commit envs)
+.env/
+.venv/
+*.conda
+*.env
+*.venv
+
+# Anaconda project junk
+anaconda_projects/
+
+# Notebook autosave junk
+Untitled.ipynb
+Untitled*.ipynb
+
+# OS/System junk
+.DS_Store
+Thumbs.db
+
+# PyCharm project files
+.idea/
+
+# Zip files
+*.zip
